@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>menu</name>
+    <events>
+        <event-block sid="778550029435794">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="560645247349158" type="Touch">
+                    <param id="0" name="Object">nivel2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="529296274686272" type="System">
+                    <param id="0" name="Layout">nivel1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="704851807313066">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="669777726350325" type="Touch">
+                    <param id="0" name="Object">nivel3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="704367980946578" type="System">
+                    <param id="0" name="Layout">nivel2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="550920700004038">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="690379075682971" type="Touch">
+                    <param id="0" name="Object">nivel4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="532390649845415" type="System">
+                    <param id="0" name="Layout">nivel3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="233742657415224">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="940890315160521" type="Touch">
+                    <param id="0" name="Object">nivel5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="510256285573180" type="System">
+                    <param id="0" name="Layout">nivel4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="472228207136990">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="632248667305409" type="Touch">
+                    <param id="0" name="Object">nivel6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="997080610816492" type="System">
+                    <param id="0" name="Layout">nivel5</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

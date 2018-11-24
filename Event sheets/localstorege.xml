@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>localstorege</name>
+    <events>
+        <event-block sid="799385021651066">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="619588679215882" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Check item exists" sid="265543855504617" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localtrofeu&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="251022817333932" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localpontos&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="805934084818236" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localmedalhas&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="351362816887875">
+            <conditions>
+                <condition id="9" name="On item exists" sid="416644517488708" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localtrofeu&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Get item" sid="672592907313481" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localtrofeu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="956121867889454">
+            <conditions>
+                <condition id="1" name="On item get" sid="122931057411695" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localtrofeu&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="301246921806238" type="System">
+                    <param id="0" name="Variable">trofeu</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="625270270662005">
+            <conditions>
+                <condition id="9" name="On item exists" sid="138639401562339" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localpontos&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Get item" sid="135105491536862" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localpontos&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="403159771444438">
+            <conditions>
+                <condition id="1" name="On item get" sid="280601667578084" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localpontos&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="701009222125345" type="System">
+                    <param id="0" name="Variable">pontos</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="817341078011183">
+            <conditions>
+                <condition id="9" name="On item exists" sid="905894316322558" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localmedalhas&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Get item" sid="147823708599745" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localmedalhas&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="364051707535339">
+            <conditions>
+                <condition id="1" name="On item get" sid="513120767052056" type="LocalStorage">
+                    <param id="0" name="Key">&quot;localmedalhas&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="656001818534227" type="System">
+                    <param id="0" name="Variable">medalhas</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
